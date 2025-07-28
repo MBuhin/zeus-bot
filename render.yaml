@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: Zeus
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: DISCORD_BOT_TOKEN
+        value: MTM5OTMxNzUxODAzNTcxODIwNg.GUK3a3.nB7DAFhVbNo5Yq1_kyA4nDmMbTmhk1_jKJikG4
+      - key: SHEET_ID
+        value: 10QZ-LdJ__W6npkPEi-hkQr79Zrv-jdqV4wWV551CIQc
+      - key: WL_ROLE_ID
+        value: 1210621950783656036
+      - key: BEZWL_ROLE_ID
+        value: 1210621949483425903
+      - key: CHANNEL_ID
+        value: 1232871593114337411

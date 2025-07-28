@@ -8,7 +8,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 SHEET_ID = os.getenv("SHEET_ID")
 TAB_NAME = "ZeusRP"
-CHECK_INTERVAL = 900  # u sekundama
+CHECK_INTERVAL = 900  # u sekundama (15 minuta)
 WL_ROLE_ID = int(os.getenv("WL_ROLE_ID"))
 BEZWL_ROLE_ID = int(os.getenv("BEZWL_ROLE_ID"))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
